@@ -1,0 +1,187 @@
+/*Navbar Topo*/
+body {
+    overflow-x: hidden;  /*Se algo passar do scrool, não vai mostrar*/
+    padding-top: 79px;
+}
+
+#navbar-topo {
+    justify-content: center;
+    display: none;
+}
+
+/*Navbar Menu*/
+#navbar-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 9vh;
+}
+
+#navbar-itens {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #100892;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+}
+
+#navbar-itens li {
+    margin-left: 0;
+    opacity: 0;     /*Caso queira fazer animação deixa 0*/
+    text-align: center;
+}
+
+#navbar-itens.active {
+    transform: translateX(0);
+}
+
+.mobile-menu {
+    display: block;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+#logo-branca {
+    display: flex;
+    max-width: 110px;
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/*Seção serviços*/
+#servicos {
+    padding: 25px 25px 25px 25px;
+}
+
+#servicos #repr {
+    flex-direction: column;
+}
+
+#servicos #repr p {
+    text-align: justify;
+    padding: 15px 0px 15px 0px;
+}
+
+#servicos #repr img {
+    max-width: 300px;
+}
+
+#servicos #transp{
+    flex-direction: column-reverse;
+}
+
+#servicos #transp p {
+    text-align: justify;
+    padding: 15px 0px 15px 0px;
+}
+
+#servicos #transp img {
+    max-width: 300px;
+}
+
+#btn-modal {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.mySlides {
+    flex-wrap: wrap;
+}
+
+.modal-img {
+    margin-top: 10px;
+}
+
+/*Seção Nossas Representadas*/
+#nossasrepresentadas-cont {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.repre-img {
+    width: 130px;
+}
+
+#w3-img {
+    width: 90px;
+}
+
+/*Seção Sobre e CA*/
+#sobre {
+    padding: 25px 25px 25px 25px;
+}
+
+#sobre-cont, #ca-cont {
+    padding: 0px 0px 20px 0px;
+}
+
+/*Footer*/
+#rodape {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px 25px 20px;
+}
+
+#rodape #menu-footer {
+    display: none;
+}
+
+#contato, #menu-footer, #onde {   
+    text-align: center;
+    margin-top: 15px;
+}
+
+#contato-cont .cont-alinha {
+    justify-content: center;
+}
+
+#contato #social-cont {
+    justify-content: center;
+}
+
+.fa-facebook {
+    margin-left: 0px;
+}
+
+#rodape #whats-footer {
+    margin-right: 2px;
+}
+
+#rodape #tel-footer {
+    margin-right: 2px;
+}

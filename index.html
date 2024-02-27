@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description"
+        content="A WM Vendas e Transporte é uma empresa criada por profissionais de experiência no mercado. Contamos com uma equipe capacitada para oferecer soluções rápidas e precisas para suas necessidades. Atuamos na cidade de Montes Claros e oferecemos um produto e serviço de excelente qualidade." />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 855px)" href="styles/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>WM Vendas e Transportes</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+</head>
+
+<body>
+
+    <nav id="navbar">
+
+        <div id="navbar-topo">
+            <a href="#"><img src="/img/logo.png" alt="logo" id="logo-azul" id="logo"></a>
+            <div id="end">
+                <a href="mailto:wm@wmvendas.com.br" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope"
+                        style="font-size:20px;color:#100892"></i></a>
+                <a href="mailto:wm@wmvendas.com.br" target="_blank" rel="noopener noreferrer">
+                    <p>wm@wmvendas.com.br</p>
+                </a>
+                <a href="https://wa.me/5508002044500" target="_blank" rel="noopener noreferrer"><i
+                        class="fa fa-whatsapp" style="font-size:20px;color:#100892"></i></a>
+                <a href="https://wa.me/5508002044500" target="_blank" rel="noopener noreferrer">
+                    <p>0800-204-4500</p>
+                </a>
+                <a href="tel:21014500"><i class="fa fa-phone" style="font-size:20px;color:#100892"></i></a>
+                <a href="tel:21014500">
+                    <p>(38) 2101-4500</p>
+                </a>
+                <a href="https://www.facebook.com/wmvendasetransportes/" class="fa fa-facebook" target="_blank"
+                    rel="noopener noreferrer"></a>
+                <a href="https://www.instagram.com/wmvendass/" class="fa fa-instagram" target="_blank"
+                    rel="noopener noreferrer"></a>
+                <a href="https://www.youtube.com/@wmvendasetransportes1246" target="_blank" rel="noopener noreferrer"><i
+                        class="fa fa-youtube" style="font-size:16px;color:white;margin: 5px 2px 5px 5px;"></i></a>
+            </div>
+        </div>
+
+        <div id="navbar-menu">
+            <a href="#"><img src="/img/logo-branca.png" alt="logo" id="logo-branca" id="logo"></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul id="navbar-itens">
+                <li><a href="#servicos" style="color:white">Serviços</a></li>
+                <li><a href="#nossasrepresentadas" style="color:white">Representadas</a></li>
+                <li><a href="#ca" style="color:white">Centro de Aprendizagem</a></li>
+                <li><a href="#sobre" style="color:white">Sobre</a></li>
+                <li><a href="#rodape" style="color:white">Contatos</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <img src="/img/banner.png" alt="baner" id="banner">
+
+    <section id="servicos">
+        <div class="headline">Serviços</div>
+        <div id="hr">
+            <hr id="hr1" class="hr1-serv">
+            <hr id="hr2" class="hr2-serv">
+        </div>
+        <h2>Representação Comercial</h2>
+        <div id="repr">
+            <p>A <strong>WM</strong> surgiu através de um sonho do seu fundador Wanderley Mangueira de trabalhar
+                representando
+                as maiores indústrias de móveis e eletrodomésticos do país. Hoje, trabalhamos com a <strong>Atlas,
+                    Dako, Colormaq, Demobile, Houston, Fricon, Taiff, Ventisol, Agratto, Lenoxx, Gradiente e
+                    W3,</strong>
+                sempre em busca de novos parceiros. Atendemos as regiões Norte, Noroeste, Vale do Jequitionha
+                e Mucuri em Minas Gerais e todo o estado da Bahia.</p>
+            <img src="/img/repre.jpg" alt="representada">
+        </div>
+        <h2 style="text-align: end;">Transportadora</h2>
+        <div id="transp">
+            <img src="/img/transp.jpg" alt="transportadora">
+            <p>Criada a partir da necessidade de melhorar a logística entre a venda e a entrega, a WM Transportes
+                conta hoje com uma frota de 24 caminhões próprios, entre carretas e trucks, atendendo exclusivamente as
+                empresas representadas, visando agilidade e segurança para que os lojistas possa garantir sua venda com
+                qualidade e menor estoque, proporcionando sustentabilidade.</p>
+        </div>
+
+        <!--Modal-->
+        <div id="btn-modal">
+            <button onclick="document.getElementById('id01').style.display='block'" class="btn">Nossos Fretes</button>
+
+            <div id="id01" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id01').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Fretes</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+
+                        <div class="slideshow-container">
+
+                            <div class="mySlides fade">
+                                <img src="/img/frete 1.png" alt="frete1" class="modal-img" style="margin-bottom: 20px;">
+                                <!--<img src="/img/frete 1.1.png" alt="frete1" class="modal-img">-->
+                            </div>
+                            <!--
+                            <div class="mySlides fade">
+                                <img src="/img/frete 2.png" alt="frete1" class="modal-img">
+                                <img src="/img/frete 2.1.png" alt="frete1" class="modal-img">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="/img/frete 3.png" alt="frete1" class="modal-img">
+                                <img src="/img/frete 3.1.png" alt="frete1" class="modal-img">
+                            </div>
+                            
+                            <a class="prev" onclick="plusSlides(-1)">❮</a>
+                            <a class="next" onclick="plusSlides(1)">❯</a>
+
+                        </div>
+                        <br>
+
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                        -->
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id01').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="nossasrepresentadas">
+        <div class="headline">Nossas Representadas</div>
+        <div id="hr">
+            <hr id="hr1" class="hr1-repre">
+            <hr id="hr2" class="hr2-repre">
+        </div>
+        <span id="span-repre">*Para acessar os catálogos, clique na representada</span>
+        <div id="nossasrepresentadas-cont">
+
+            <a onclick="document.getElementById('id02').style.display='block'" style="cursor: pointer;"><img
+                    src="/img/atlas.png" alt="atlas" class="repre-img"></a>
+
+            <div id="id02" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id02').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Catálogos</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+
+                        <iframe
+                            src="https://drive.google.com/embeddedfolderview?id=1ubtrnadMBPZDmujl0eD8SW7G8YcWLyvW#grid"
+                            style="width: 100%; height: 300px; border:0;"></iframe>
+
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id02').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <a onclick="document.getElementById('id03').style.display='block'" style="cursor: pointer;"><img
+                    src="/img/fricon.png" alt="fricon" class="repre-img"></a>
+
+            <div id="id03" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id03').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Catálogos</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+                        <iframe
+                            src="https://drive.google.com/embeddedfolderview?id=1gbWp-uHmkZ7E4WPNxT41OJB0fkqsm0Yq#grid"
+                            style="width: 100%; height: 300px; border:0;"></iframe>
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id03').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <a onclick="document.getElementById('id04').style.display='block'" style="cursor: pointer;"><img
+                    src="/img/colormaq.png" alt="colormaq" class="repre-img"></a>
+
+            <div id="id04" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id04').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Catálogos</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+                        <iframe
+                            src="https://drive.google.com/embeddedfolderview?id=1p4CCKrjqu7dP3dzwLoXkcLP3kflVSL1x#grid"
+                            style="width: 100%; height: 300px; border:0;"></iframe>
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id04').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <a onclick="document.getElementById('id05').style.display='block'" style="cursor: pointer;"><img
+                    src="/img/demobile.png" alt="demobile" class="repre-img"></a>
+
+            <div id="id05" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id05').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Catálogos</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+                        <iframe
+                            src="https://drive.google.com/embeddedfolderview?id=1jwtaGVlwxEv3kl9pa7PZfZuTCYmoKy41#grid"
+                            style="width: 100%; height: 300px; border:0;"></iframe>
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id05').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <a onclick="document.getElementById('id06').style.display='block'" style="cursor: pointer;"><img
+                    src="/img/lenoxx.png" alt="lenoxx" class="repre-img"></a>
+
+            <div id="id06" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id06').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Catálogos</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+                        <iframe
+                            src="https://drive.google.com/embeddedfolderview?id=1YNhcyL027rCyeZIZdp4a56F-Rw4z5DLA#grid"
+                            style="width: 100%; height: 300px; border:0;"></iframe>
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id06').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <a onclick="document.getElementById('id07').style.display='block'" style="cursor: pointer;"><img
+                    src="/img/taiff.png" alt="taiff" class="repre-img"></a>
+
+            <div id="id07" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id07').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Catálogos</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+                        <iframe
+                            src="https://drive.google.com/embeddedfolderview?id=12SC67zEon3unopwwiVNZHhDIJvI0mplO#grid"
+                            style="width: 100%; height: 300px; border:0;"></iframe>
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id07').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <a onclick="document.getElementById('id08').style.display='block'" style="cursor: pointer;"><img
+                    src="/img/houston.svg" alt="houston" class="repre-img"></a>
+
+            <div id="id08" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id08').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Catálogos</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+                        <iframe
+                            src="https://drive.google.com/embeddedfolderview?id=1rx9FJlnqz1nQl_CakOv2QcmYNKvTsXPi#grid"
+                            style="width: 100%; height: 300px; border:0;"></iframe>
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id08').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <a onclick="document.getElementById('id09').style.display='block'" style="cursor: pointer;"><img
+                    src="/img/w3.svg" alt="w3" class="repre-img" id="w3-img"></a>
+
+            <div id="id09" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id09').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Catálogos</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+                        <iframe
+                            src="https://drive.google.com/embeddedfolderview?id=1ZwwfCzEGgOTFg9_cTVlqmSa0HwIUwmey#grid"
+                            style="width: 100%; height: 300px; border:0;"></iframe>
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id09').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <a onclick="document.getElementById('id10').style.display='block'" style="cursor: pointer;"><img
+                    src="/img/gradiente.png" alt="gradiente" class="repre-img"></a>
+
+            <div id="id10" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id10').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Catálogos</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+                        <iframe
+                            src="https://drive.google.com/embeddedfolderview?id=1YNhcyL027rCyeZIZdp4a56F-Rw4z5DLA#grid"
+                            style="width: 100%; height: 300px; border:0;"></iframe>
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id10').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <a onclick="document.getElementById('id11').style.display='block'" style="cursor: pointer;"><img
+                    src="/img/agratto.png" alt="agratto" class="repre-img"></a>
+
+            <div id="id11" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id11').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Catálogos</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+                        <iframe
+                            src="https://drive.google.com/embeddedfolderview?id=14xonL8ZWoSG9l6UHYqeJAfCJ0xoIkgDt#grid"
+                            style="width: 100%; height: 300px; border:0;"></iframe>
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id11').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <a onclick="document.getElementById('id12').style.display='block'" style="cursor: pointer;"><img
+                    src="/img/dako.png" alt="dako" class="repre-img"></a>
+
+            <div id="id12" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id12').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Catálogos</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+                        <iframe
+                            src="https://drive.google.com/embeddedfolderview?id=1ubtrnadMBPZDmujl0eD8SW7G8YcWLyvW#grid"
+                            style="width: 100%; height: 300px; border:0;"></iframe>
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id12').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <a onclick="document.getElementById('id13').style.display='block'" style="cursor: pointer;"><img
+                    src="/img/ventisol.png" alt="agratto" class="repre-img"></a>
+
+            <div id="id13" class="w3-modal w3-animate-opacity">
+                <div class="w3-modal-content w3-animate-bottom">
+
+                    <header class="w3-container modal-header">
+                        <span onclick="document.getElementById('id13').style.display='none'"
+                            class="w3-display-topright btn-close">&times;
+                        </span>
+                        <h2>Catálogos</h2>
+                    </header>
+
+                    <div class="w3-container modal-body">
+                        <iframe
+                            src="https://drive.google.com/embeddedfolderview?id=14xonL8ZWoSG9l6UHYqeJAfCJ0xoIkgDt#grid"
+                            style="width: 100%; height: 300px; border:0;"></iframe>
+                    </div>
+
+                    <div class="w3-container w3-padding modal-footer">
+                        <button class="btn w3-right w3-border"
+                            onclick="document.getElementById('id13').style.display='none'">
+                            Fechar
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="headline">Sobre</div>
+        <div id="hr">
+            <hr id="hr1" class="hr1-sobre">
+            <hr id="hr2" class="hr2-sobre">
+        </div>
+        <div id="sobre-cont">
+            <p>
+                Criada em 1994, a WM é uma empresa experiente, que
+                oferece Representação comercial com foco na logística e com: <br>
+                <br>
+                Qualidade de atendimento <br>
+                <br>
+                Assessoria total antes, durante e depois da venda. <br>
+                <br>
+                Equipe altamente qualificada. <br>
+                <br>
+                Possuí como base um CD com área total de aproximadamente 4.000m².
+                Dessa forma, mais do que vender um produto, a WM também cuida para
+                que a imagem deste seja a melhor possível diante do consumidor final. <br>
+                <br>
+                <strong>A empresa tem como fundamentos:</strong>
+                <br>
+                <br>
+                <strong>Missão:</strong> Participar do crescimento de nossos
+                clientes e indústrias com eficiência em vendas e logística.
+                <br>
+                <br>
+                <strong>Visão:</strong> Ser reconhecida nacionalmente, em vendas e
+                logística.
+                <br>
+                <br>
+                <strong>Valores:</strong> Entrega, paixão, pontualidade e responsabilidade.
+            </p>
+        </div>
+    </section>
+
+    <section id="ca">
+        <div class="headline">Centro de Aprendizagem</div>
+        <div id="hr">
+            <hr id="hr1" class="hr1-ca">
+            <hr id="hr2" class="hr2-ca">
+        </div>
+        <div id="ca-cont">
+            <p>
+                Aqui nossos parceiros encontrarão todos os treinamentos já realizados em nossa
+                sede, além de vários conteúdos disponibilizados por nossas indústrias representadas.
+                Você vai encontrar tudo o que precisa saber sobre nossos produtos e serviços para
+                ajudá-lo nas vendas. Para ter acesso clique no botão abaixo.
+            </p>
+        </div>
+        <div id="ca-btn">
+            <a href="https://cawm.com.br/" class="btn" target="_blank" rel="noopener noreferrer">CAWM</a>
+        </div>
+    </section>
+
+    <footer id="rodape">
+        <div id="onde">
+            <h2>Onde estamos</h2> <br>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15285.785045964267!2d-43.8680803!3d-16.7045708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x754aca0ac5b59d9%3A0x2a24417867891231!2sWM%20Vendas%20e%20Transportes!5e0!3m2!1spt-BR!2sbr!4v1683654030362!5m2!1spt-BR!2sbr"
+                width="300" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" target="_blank" rel="noopener noreferrer"></iframe>
+            <p>R. Marcílio Martins Rêgo, 250 <br> Nossa Sra. Aparecida, <br>
+                Montes Claros - MG, 39400-761</p>
+        </div>
+
+        <div id="menu-footer">
+            <h2>Menu</h2> <br>
+            <ul>
+                <li><a href="#banner">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#nossasrepresentadas">Representadas</a></li>
+                <li><a href="#ca">Centro de Aprendizagem</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#rodape">Contatos</a></li>
+            </ul>
+        </div>
+
+        <div id="contato">
+            <h2>Contato</h2> <br>
+            <div id="contato-cont">
+                <div class="cont-alinha">
+                    <a href="mailto:wm@wmvendas.com.br" target="_blank" rel="noopener noreferrer"><i
+                            class="fa fa-envelope"
+                            style="font-size:15px;color:#100892; padding: 0px; margin: 0px 8px 0px 0px;"></i></a>
+                    <a href="mailto:wm@wmvendas.com.br" target="_blank" rel="noopener noreferrer">
+                        <p>wm@wmvendas.com.br</p>
+                    </a>
+                </div>
+                <div class="cont-alinha">
+                    <a href="https://wa.me/5508002044500" target="_blank" rel="noopener noreferrer"><i id="whats-footer"
+                            class="fa fa-whatsapp"
+                            style="font-size:15px;color:#100892; padding: 0px; margin: 0px 8px 0px 0px;"></i></a>
+                    <a href="https://wa.me/5508002044500" target="_blank" rel="noopener noreferrer">
+                        <p>0800-204-4500</p>
+                    </a>
+                </div>
+                <div class="cont-alinha">
+                    <a href="tel:21014500"><i id="tel-footer" class="fa fa-phone"
+                            style="font-size:15px;color:#100892; padding: 0px; margin: 0px 8px 0px 0px;"></i></a>
+                    <a href="tel:21014500">
+                        <p>(38) 2101-4500</p>
+                    </a>
+                </div>
+            </div>
+
+            <h2>Social</h2>
+            <div id="social-cont">
+                <a href="https://www.facebook.com/wmvendasetransportes/" class="fa fa-facebook  face" target="_blank"
+                    rel="noopener noreferrer"></a>
+                <a href="https://www.instagram.com/wmvendass/" class="fa fa-instagram" target="_blank"
+                    rel="noopener noreferrer"></a>
+                <a href="https://www.youtube.com/@wmvendasetransportes1246" target="_blank" rel="noopener noreferrer"><i
+                        class="fa fa-youtube" style="font-size:16px;color:white;margin: 5px 0px 5px 5px;"></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- WhatsApp Flutuante -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://wa.me/5508002044500"
+        style="position:fixed;width:60px;height:60px;bottom:25px;right:30px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;z-index:1000;"
+        target="_blank">
+        <i style="margin-top:16px;padding: 0px;" class="fa fa-whatsapp"></i>
+    </a>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Our JS file -->
+    <script src="main/main.js"></script>
+
+</body>
+
+</html>
