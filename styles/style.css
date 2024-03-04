@@ -177,13 +177,17 @@ img {
 .fa-instagram {
     background: #100892;
     color: white;
-    margin-left: 5px;
 }
 
 .fa-youtube {
     background: #100892;
     color: white;
-    margin-left: 5px;
+}
+
+.fa-linkedin {
+    background: #100892;
+    color: white;
+    width: 25px;
 }
 
 #navbar-menu {
@@ -309,6 +313,8 @@ img {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .mySlides {
