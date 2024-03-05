@@ -9,7 +9,7 @@
 body {
     font-family: 'Exo', sans-serif;
     overflow-x: hidden;  /*Se algo passar do scrool, não vai mostrar*/
-    padding-top: 148px; /* Altura do menu */
+    padding-top: 143px; /* Altura do menu */
     line-height: normal;
 }
 
@@ -35,10 +35,6 @@ a {
     text-decoration: none;
     color: inherit;
     font-size: 16px
-}
-
-img {
-    vertical-align: inherit;
 }
 
 .btn {
