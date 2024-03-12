@@ -1,7 +1,7 @@
 /*Navbar Topo*/
 body {
     overflow-x: hidden;  /*Se algo passar do scrool, não vai mostrar*/
-    padding-top: 79px;
+    padding-top: 70px;
 }
 
 #navbar-topo {
@@ -15,7 +15,8 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    height: 9vh;
+    width: 100%;
+    height: 80px; 
 }
 
 #navbar-itens {
@@ -84,6 +85,13 @@ body {
 }
 
 /*Banner*/
+.banner {
+    display: none; /* Oculta o banner principal*/
+}
+.mobile-banner {
+    display: block; /* Exibe o banner para dispositivos móveis */
+}
+
 .prev-btn,
 .next-btn {
     padding: 8px;

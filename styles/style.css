@@ -218,6 +218,10 @@ a {
 }
 
 /*Banner*/
+.mobile-banner {
+    display: none; /* Oculta o banner mobile */
+}
+
 .carousel {
     position: relative;
     width: 100%;
