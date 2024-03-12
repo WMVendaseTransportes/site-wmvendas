@@ -83,6 +83,17 @@ body {
     }
 }
 
+/*Banner*/
+.prev-btn,
+.next-btn {
+    padding: 8px;
+}
+
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+}
+
 /*Seção serviços*/
 #servicos {
     padding: 25px 25px 25px 25px;
