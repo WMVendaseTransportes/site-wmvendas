@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const slides = document.querySelectorAll(".carousel-slide");
   const dotsContainer = document.querySelector(".carousel-dots");
   let currentSlide = 0;
-  let autoSlideInterval; // Variável para armazenar o intervalo de slide automático
+  let autoSlideInterval;
   const slideInterval = 4000;
 
   const updateDots = () => {
@@ -87,7 +87,6 @@ document.addEventListener("DOMContentLoaded", function() {
     currentSlide = (currentSlide + 1) % slides.length;
     slides[currentSlide].style.display = "block";
     updateDots();
-    startAutoSlide(); // Reinicia o intervalo após a navegação manual
   };
 
   const prevSlide = () => {
@@ -95,24 +94,27 @@ document.addEventListener("DOMContentLoaded", function() {
     currentSlide = (currentSlide - 1 + slides.length) % slides.length;
     slides[currentSlide].style.display = "block";
     updateDots();
-    startAutoSlide(); // Reinicia o intervalo após a navegação manual
   };
 
   const startAutoSlide = () => {
-    clearInterval(autoSlideInterval); // Limpa o intervalo atual
-    autoSlideInterval = setInterval(nextSlide, slideInterval); // Inicia um novo intervalo
+    autoSlideInterval = setInterval(nextSlide, slideInterval);
   };
 
-  startAutoSlide(); // Inicia o intervalo de slide automático ao carregar a página
+  // Exibir o primeiro slide imediatamente ao carregar a página
+  slides[currentSlide].style.display = "block";
+  updateDots();
+  startAutoSlide();
 
   document.querySelector(".prev-btn").addEventListener("click", () => {
     clearInterval(autoSlideInterval);
     prevSlide();
+    startAutoSlide();
   });
 
   document.querySelector(".next-btn").addEventListener("click", () => {
     clearInterval(autoSlideInterval);
     nextSlide();
+    startAutoSlide();
   });
 
   // Adicionar os pontos de indicação (dots)
@@ -128,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function() {
       currentSlide = index;
       slides[currentSlide].style.display = "block";
       updateDots();
-      startAutoSlide(); // Reinicia o intervalo após a navegação manual
+      startAutoSlide();
     });
     dotsContainer.appendChild(dot);
   });
